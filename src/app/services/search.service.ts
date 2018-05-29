@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import {Observable} from 'rxjs';
 import { Http, Headers, RequestOptions } from '@angular/http';
-import {Searchresult} from '../models'
+import {Searchresult} from '../models';
+import 'rxjs/add/operator/map';
+
 
 
 @Injectable()
